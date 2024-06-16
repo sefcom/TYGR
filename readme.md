@@ -82,7 +82,7 @@ The final model will be stored using the provided name.
 To test the trained model, simply do
 
 ```
-./TYGR test --test TEST.pkl --model MODEL.model
+./TYGR test MODEL.model TEST.pkl 
 ```
 
 where `TEST.pkl` is the testing dataset and the `MODEL.model` is the trained model generated
