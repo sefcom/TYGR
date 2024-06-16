@@ -89,15 +89,3 @@ where `TEST.pkl` is the testing dataset and the `MODEL.model` is the trained mod
 by the training process.
 If `--method` is specified during datagen and training phases, make sure you pass in the same
 flag for testing as well.
-
-### 3. Prediction
-
-With a given model you can run prediction on a fresh stripped binary (no need to do datagen).
-
-```
-./TYGR predict PATH/TO/YOUR/STRIPPED/BINARY
-```
-
-It will try to predict more types than there are, but we will try to cover as many variables
-as possible.
-In this mode, we identify variables by their function context PC range and stack offset.
