@@ -37,7 +37,7 @@ In this case, you should manually install the dependencies.
 
 ## How to use
 
-Please find all trained models in `model` folder.
+Please find trained models in `model` folder.
 
 ### 1. Dataset Generation
 
