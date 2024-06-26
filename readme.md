@@ -5,6 +5,8 @@ This dataset contains C and C++ binaries from Gentoo Linux, each compiled with o
 
 (Please allow few more weeks for me to upload data set for all other architectures, they should be online soon:) )
 
+
+
 # Function deduplication
 
 TYDA data set still contains duplicate functions.
@@ -12,6 +14,8 @@ TYDA data set still contains duplicate functions.
 Please use the `scripts/angr_func_hash.py` to get the list of duplicate functions, every function in the same hash are duplicate functions.
 
 During `datamerge`, skip functions in the duplicate list.
+
+
 
 # TYGR
 
