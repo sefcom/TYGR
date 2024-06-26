@@ -47,9 +47,11 @@ In this case, you should manually install the dependencies.
 
 ## How to use
 
+Please find all trained models in `model` folder.
+
 ### 1. Dataset Generation
 
-To train a new model, first try to generate dataset from binaries:
+To test a model or train a new model, first try to generate dataset from binaries:
 
 ```
 ./TYGR datagen PATH/TO/YOUR/BINARY DATASET.pkl
