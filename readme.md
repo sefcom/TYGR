@@ -7,16 +7,6 @@ This dataset contains C and C++ binaries from Gentoo Linux, each compiled with o
 
 <br>
 
-# Function deduplication
-
-TYDA data set still contains duplicate functions.
-
-Please use the `scripts/angr_func_hash.py` to get the list of duplicate functions, every function in the same hash are duplicate functions.
-
-During `datamerge`, skip functions in the duplicate list.
-
-<br>
-
 # TYGR
 
 Type Inference on Stripped Binaries using Graph Neural Networks
@@ -114,3 +104,13 @@ where `TEST.pkl` is the testing dataset and the `MODEL.model` is the trained mod
 by the training process.
 If `--method` is specified during datagen and training phases, make sure you pass in the same
 flag for testing as well.
+
+<br>
+
+# Function deduplication
+
+TYDA data set still contains duplicate functions.
+
+Please use the `scripts/angr_func_hash.py` to get the list of duplicate functions, every function in the same hash are duplicate functions.
+
+During `datamerge`, skip functions in the duplicate list.
