@@ -49,8 +49,6 @@ To test a model or train a new model, first try to generate dataset from binarie
 
 Make sure the binaries being used in this stage is properly compiled with DWARF
 information available.
-If you are compiling using GCC or Clang, you can include such information using
-a flag `-gdwarf`.
 
 Note that one can specify a `--method` flag which defaults to `glow`, representing
 our best model.
