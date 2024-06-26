@@ -6,7 +6,6 @@ This dataset contains C and C++ binaries from Gentoo Linux, each compiled with o
 (Please allow few more weeks for me to upload data set for all other architectures, they should be online soon:) )
 
 <br>
-<br>
 
 # Function deduplication
 
@@ -16,7 +15,6 @@ Please use the `scripts/angr_func_hash.py` to get the list of duplicate function
 
 During `datamerge`, skip functions in the duplicate list.
 
-<br>
 <br>
 
 # TYGR
