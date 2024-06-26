@@ -65,6 +65,10 @@ our best model.
 To try out other methods like Transformer or BiLSTM, you should feed another flag
 to the datagen process to generate data suitable for the corresponding method.
 
+If the binaries are larger than 1MB I would suggest to run in parallel mode since ANGR is slow. You should be able to specify the number of processors in src/methods/glow/datagen.py. Be careful about the memory usage as ANGR may explode your memory. 
+
+
+
 You can combine different datasets by using the `datamerge` command:
 
 ```
