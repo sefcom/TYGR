@@ -67,7 +67,7 @@ You can combine different datasets by using the `datamerge` command:
 ./TYGR datamerge DATASET1.pkl DATASET2.pkl -o MERGED.pkl
 ```
 
-Then you can use split_model_pkl.py in script folder to parse the dataset for MODEL_base and MODEL_struct.
+Then you can use `scripts/split_model_pkl.py` to parse the dataset for MODEL_base and MODEL_struct.
 
 Lastly, you can split the dataset into training, validation, and testing sets
 
