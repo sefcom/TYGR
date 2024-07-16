@@ -3,7 +3,8 @@ Please find TYDA [x86_64 binaries](https://www.dropbox.com/scl/fo/awtitjnc48k224
 
 This dataset contains C and C++ binaries from Gentoo Linux, each compiled with one of four different compiler optimization flags: O0, O1, O2, and O3. Each set of binaries for a specific optimization level is associated with a .json file named C_CPP_binaries_{opt}.json, where opt represents the optimization level (O0, O1, O2, or O3). These JSON files include metadata about the binary, such as the language, whether it has inline functions or dwarf info, among other details.
 
-(Please allow few more weeks for me to upload data set for all other architectures, they should be online soon:) )
+Please find the rest of TYDA C binaries here. [c binaries]([https://www.dropbox.com/scl/fo/awtitjnc48k224373vcrx/h?rlkey=muj6t1watc6vn2ds6du7egoha&e=1&dl=0](https://www.dropbox.com/scl/fo/tw64ablil18d7bnzs1ob2/AEYhgKle7gvzdikuCyhKUPE?rlkey=kx4dkj0e4pqam8nqmhq5hl5io&dl=0)).
+
 
 <br>
 
