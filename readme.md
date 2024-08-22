@@ -1,6 +1,6 @@
 # TYGR
-
-Type Inference on Stripped Binaries using Graph Neural Networks <img align="right" src="./tests/TYGR_icon.png" alt="TYGR's logo" width="160" heigh="160">
+<img align="right" src="./tests/TYGR_icon.png" alt="TYGR's logo" width="160" heigh="160">
+Type Inference on Stripped Binaries using Graph Neural Networks 
 
 ## TYDA data set
 Please find TYDA [x86_64 binaries](https://www.dropbox.com/scl/fo/awtitjnc48k224373vcrx/h?rlkey=g855gkzq8fw8bpekkgmfxk4zz&dl=0). 
