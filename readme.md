@@ -1,5 +1,4 @@
-# TYGR
-<img align="right" src="./tests/TYGR_icon.png" alt="TYGR's logo" width="160" heigh="160">
+# TYGR <img align="right" src="./tests/TYGR_icon.png" alt="TYGR's logo" width="160" heigh="160">
 Type Inference on Stripped Binaries using Graph Neural Networks 
 
 ## TYDA data set
