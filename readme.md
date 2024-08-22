@@ -1,4 +1,8 @@
-# Awesome TYDA data set
+# TYGR
+
+Type Inference on Stripped Binaries using Graph Neural Networks <img align="right" src="./tests/TYGR_icon.png" alt="TYGR's logo" width="160" heigh="160">
+
+## TYDA data set
 Please find TYDA [x86_64 binaries](https://www.dropbox.com/scl/fo/awtitjnc48k224373vcrx/h?rlkey=g855gkzq8fw8bpekkgmfxk4zz&dl=0). 
 
 This dataset contains C and C++ binaries from Gentoo Linux, each compiled with one of four different compiler optimization flags: O0, O1, O2, and O3. Each set of binaries for a specific optimization level is associated with a .json file named C_CPP_binaries_{opt}.json, where opt represents the optimization level (O0, O1, O2, or O3). These JSON files include metadata about the binary, such as the language, whether it has inline functions or dwarf info, among other details.
@@ -7,10 +11,6 @@ Please find the rest of TYDA C binaries here. [c binaries](https://www.dropbox.c
 
 
 <br>
-
-# TYGR
-
-Type Inference on Stripped Binaries using Graph Neural Networks
 
 ## Setup
 
